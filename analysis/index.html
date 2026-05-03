@@ -6,7 +6,7 @@
 <title>IDX Dividend Tracker</title>
 <meta name="description" content="Pantau saham IDX dengan dividend yield tinggi. Analisis kelayakan, tren dividen, dan rekomendasi strategi.">
 <meta property="og:title" content="IDX Dividend Tracker">
-<meta property="og:description" content="Saham IDX dengan dividend yield >5%. Analisis kelayakan, ex-dividend date, dan rekomendasi: Beli Dividen vs Ambil Capital Gain.">
+<meta property="og:description" content="Saham IDX dengan dividend yield >5%. Kapan beli, kapan jual, kapan alih ke capital gain.">
 <meta property="og:type" content="website">
 <style>
   :root {
@@ -16,77 +16,108 @@
     --gold:#d29922;--gold-bg:#272115;--gold-border:#9e6a03;
     --blue:#58a6ff;--blue-bg:#121d2f;--blue-border:#1f6feb;
     --purple:#bc8cff;--purple-bg:#1f1535;--purple-border:#6e40c9;
+    --orange:#ffa657;--orange-bg:#27190c;--orange-border:#bd561d;
   }
   *{box-sizing:border-box;margin:0;padding:0}
   body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px}
 
+  /* ── Header ── */
   header{background:var(--card);border-bottom:1px solid var(--border);padding:16px 24px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
   header h1{font-size:20px;font-weight:700}
   .pill{font-size:11px;padding:2px 10px;border-radius:20px;font-weight:600;border:1px solid}
   .pill-green{background:var(--green-bg);color:var(--green);border-color:var(--green-border)}
   .pill-gold{background:var(--gold-bg);color:var(--gold);border-color:var(--gold-border)}
+  .pill-blue{background:var(--blue-bg);color:var(--blue);border-color:var(--blue-border)}
+  .nav-link{font-size:12px;color:var(--blue);text-decoration:none}
   .meta{margin-left:auto;font-size:11px;color:var(--muted);text-align:right}
+  .meta span{display:block}
 
+  /* ── Stats ── */
   .stats-bar{display:flex;flex-wrap:wrap;background:var(--card);border-bottom:1px solid var(--border)}
   .stat{flex:1;min-width:80px;padding:12px 16px;text-align:center;border-right:1px solid var(--border)}
   .stat:last-child{border-right:none}
   .stat-num{font-size:22px;font-weight:800}
-  .stat-label{font-size:10px;color:var(--muted);margin-top:2px;text-transform:uppercase;letter-spacing:.4px}
+  .stat-lbl{font-size:10px;color:var(--muted);margin-top:2px;text-transform:uppercase;letter-spacing:.4px}
 
-  .filter-bar{display:flex;gap:8px;padding:12px 24px;background:var(--card);border-bottom:1px solid var(--border);flex-wrap:wrap;align-items:center}
-  .filter-btn{padding:5px 14px;border-radius:20px;border:1px solid var(--border);background:var(--bg);font-size:11px;font-weight:700;cursor:pointer;color:var(--muted);transition:all .15s}
-  .filter-btn.active{background:var(--blue);color:#fff;border-color:var(--blue)}
+  /* ── Filter ── */
+  .filter-bar{display:flex;gap:8px;padding:10px 24px;background:var(--card);border-bottom:1px solid var(--border);flex-wrap:wrap;align-items:center}
+  .filter-lbl{font-size:11px;color:var(--muted);font-weight:600;white-space:nowrap}
+  .fbtn{padding:4px 14px;border-radius:20px;border:1px solid var(--border);background:var(--bg);font-size:11px;font-weight:700;cursor:pointer;color:var(--muted);transition:all .15s}
+  .fbtn:hover{border-color:var(--blue);color:var(--blue)}
+  .fbtn.active{background:var(--blue);color:#fff;border-color:var(--blue)}
 
+  /* ── Cards ── */
   main{padding:20px 24px;display:grid;gap:12px;max-width:1100px;margin:0 auto}
 
-  .stock-card{background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden}
-  .stock-card.buy{border-left:4px solid var(--green-border)}
-  .stock-card.hold{border-left:4px solid var(--blue-border)}
-  .stock-card.sell{border-left:4px solid var(--gold-border)}
-  .stock-card.avoid{border-left:4px solid var(--red-border)}
-  .stock-card.watch{border-left:4px solid var(--border)}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.15)}
+  .card.buy   {border-left:4px solid var(--green-border)}
+  .card.hold  {border-left:4px solid var(--blue-border)}
+  .card.sell  {border-left:4px solid var(--gold-border)}
+  .card.avoid {border-left:4px solid var(--red-border)}
+  .card.watch {border-left:4px solid var(--border)}
 
-  .card-header{padding:14px 18px;cursor:pointer;transition:background .15s}
-  .card-header:hover{background:#1c2128}
-  .header-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .card-hd{padding:14px 18px 12px;cursor:pointer;transition:background .15s}
+  .card-hd:hover{background:#1c2128}
+
+  .hd-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
   .ticker{font-size:18px;font-weight:800}
   .badge{padding:3px 10px;border-radius:20px;font-size:11px;font-weight:700;border:1px solid}
-  .badge-buy{background:var(--green-bg);color:var(--green);border-color:var(--green-border)}
-  .badge-hold{background:var(--blue-bg);color:var(--blue);border-color:var(--blue-border)}
-  .badge-sell{background:var(--gold-bg);color:var(--gold);border-color:var(--gold-border)}
+  .badge-buy  {background:var(--green-bg);color:var(--green);border-color:var(--green-border)}
+  .badge-hold {background:var(--blue-bg);color:var(--blue);border-color:var(--blue-border)}
+  .badge-sell {background:var(--gold-bg);color:var(--gold);border-color:var(--gold-border)}
   .badge-avoid{background:var(--red-bg);color:var(--red);border-color:var(--red-border)}
   .badge-watch{background:#21262d;color:var(--muted);border-color:var(--border)}
-  .sector-tag{font-size:11px;background:var(--bg);border:1px solid var(--border);border-radius:20px;padding:2px 8px;color:var(--muted)}
-  .stars{margin-left:auto;color:var(--gold);font-size:13px;letter-spacing:1px}
+  .sec-tag{font-size:11px;background:var(--bg);border:1px solid var(--border);border-radius:20px;padding:2px 8px;color:var(--muted)}
+  .price-blk{margin-left:auto;text-align:right}
+  .price-main{font-size:15px;font-weight:800}
 
+  /* Star rating */
+  .stars{display:flex;gap:2px;align-items:center;margin-top:8px}
+  .star{width:10px;height:10px;border-radius:50%;background:var(--border)}
+  .star.on{background:var(--gold)}
+
+  /* Metrics row */
   .metrics{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:8px;margin-top:10px}
-  .metric{background:var(--bg);border:1px solid var(--border);border-radius:7px;padding:8px 10px;text-align:center}
-  .metric-label{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.4px;font-weight:600}
-  .metric-val{font-size:16px;font-weight:800;margin-top:2px}
-  .metric-sub{font-size:9px;color:var(--muted);margin-top:1px}
+  .mbox{background:#1c2128;border:1px solid var(--border);border-radius:8px;padding:8px 10px;text-align:center}
+  .mlbl{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.4px;font-weight:600}
+  .mval{font-size:15px;font-weight:800;margin-top:2px}
+  .msub{font-size:9px;color:var(--muted);margin-top:1px}
 
-  .card-body{padding:0 18px 16px;border-top:1px solid var(--border);display:none}
-  .card-body.open{display:block}
-  .reasoning{background:#1c2128;border-left:3px solid var(--blue);border-radius:0 6px 6px 0;padding:10px 14px;font-size:12px;line-height:1.6;margin-top:14px}
+  /* Expand hint */
+  .expand-hint{margin-top:8px;font-size:11px;color:var(--muted)}
+
+  /* Card body */
+  .card-bd{padding:0 18px 16px;border-top:1px solid var(--border);display:none}
+  .card-bd.open{display:block}
+
+  .reasoning{background:#1c2128;border-left:3px solid var(--blue);border-radius:0 7px 7px 0;padding:10px 14px;font-size:12px;line-height:1.6;margin-top:14px}
   .warning{background:var(--red-bg);border:1px solid var(--red-border);border-radius:6px;padding:6px 10px;font-size:11px;color:var(--red);margin-top:6px}
-  .div-history{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
-  .div-year{background:#1c2128;border:1px solid var(--border);border-radius:6px;padding:5px 10px;text-align:center;font-size:11px}
-  .div-year-label{color:var(--muted);font-size:10px}
-  .div-year-val{font-weight:700;color:var(--gold)}
 
+  .div-history{margin-top:12px}
+  .div-history-title{font-size:10px;color:var(--muted);font-weight:700;text-transform:uppercase;letter-spacing:.4px;margin-bottom:6px}
+  .div-bars{display:flex;gap:6px;align-items:flex-end;height:60px}
+  .div-bar-wrap{display:flex;flex-direction:column;align-items:center;gap:3px;flex:1}
+  .div-bar{background:var(--blue);border-radius:3px 3px 0 0;width:100%;min-height:4px;transition:all .3s}
+  .div-bar-year{font-size:9px;color:var(--muted)}
+  .div-bar-amt{font-size:9px;color:var(--text);font-weight:600}
+
+  /* Util */
   .pos{color:var(--green)}.neg{color:var(--red)}.neu{color:var(--muted)}
   .loading{text-align:center;padding:60px;color:var(--muted)}
   .spinner{width:28px;height:28px;border:3px solid var(--border);border-top-color:var(--blue);border-radius:50%;animation:spin 1s linear infinite;margin:0 auto 12px}
   @keyframes spin{to{transform:rotate(360deg)}}
-  @media(max-width:600px){main{padding:12px 16px}}
+  @media(max-width:600px){main{padding:12px 16px}.metrics{grid-template-columns:repeat(3,1fr)}}
 </style>
 </head>
 <body>
 
 <header>
   <h1>💰 IDX Dividend Tracker</h1>
-  <span class="pill pill-green">Yield &gt; 5%</span>
+  <span class="pill pill-green">Yield &gt;5%</span>
   <span class="pill pill-gold">Dividen Tahunan</span>
+  <div style="display:flex;gap:14px;align-items:center;margin-left:auto">
+    <a href="https://yazqe.github.io/idx-ai-hedge-fund/analysis/" target="_blank" class="nav-link">🤖 AI Hedge Fund</a>
+  </div>
   <div class="meta">
     <span id="gen-date">–</span>
     <span id="gen-time" style="font-weight:600">–</span>
@@ -96,34 +127,34 @@
 <div class="stats-bar">
   <div class="stat">
     <div class="stat-num" style="color:var(--green)" id="cnt-buy">–</div>
-    <div class="stat-label">💰 Beli Dividen</div>
+    <div class="stat-lbl">💰 Beli Dividen</div>
   </div>
   <div class="stat">
     <div class="stat-num" style="color:var(--blue)" id="cnt-hold">–</div>
-    <div class="stat-label">✅ Tahan</div>
+    <div class="stat-lbl">✅ Tahan</div>
   </div>
   <div class="stat">
     <div class="stat-num" style="color:var(--gold)" id="cnt-sell">–</div>
-    <div class="stat-label">📈 Alih Capital Gain</div>
+    <div class="stat-lbl">📈 Capital Gain</div>
   </div>
   <div class="stat">
     <div class="stat-num" style="color:var(--red)" id="cnt-avoid">–</div>
-    <div class="stat-label">⛔ Hindari</div>
+    <div class="stat-lbl">⛔ Hindari</div>
   </div>
   <div class="stat">
     <div class="stat-num" style="color:var(--muted)" id="cnt-total">–</div>
-    <div class="stat-label">📊 Total Dianalisis</div>
+    <div class="stat-lbl">📊 Dianalisis</div>
   </div>
 </div>
 
 <div class="filter-bar">
-  <span style="font-size:11px;color:var(--muted);font-weight:600">Filter:</span>
-  <button class="filter-btn active" onclick="setFilter('all',this)">Semua</button>
-  <button class="filter-btn" onclick="setFilter('BUY_DIVIDEND',this)">💰 Beli Dividen</button>
-  <button class="filter-btn" onclick="setFilter('HOLD_DIVIDEND',this)">✅ Tahan</button>
-  <button class="filter-btn" onclick="setFilter('SELL_CAPITAL_GAIN',this)">📈 Alih Capital Gain</button>
-  <button class="filter-btn" onclick="setFilter('AVOID',this)">⛔ Hindari</button>
-  <span style="margin-left:auto;font-size:11px;color:var(--muted)" id="filter-count"></span>
+  <span class="filter-lbl">Filter:</span>
+  <button class="fbtn active" onclick="setF('all',this)">Semua</button>
+  <button class="fbtn" onclick="setF('BUY_DIVIDEND',this)">💰 Beli Dividen</button>
+  <button class="fbtn" onclick="setF('HOLD_DIVIDEND',this)">✅ Tahan</button>
+  <button class="fbtn" onclick="setF('SELL_CAPITAL_GAIN',this)">📈 Capital Gain</button>
+  <button class="fbtn" onclick="setF('AVOID',this)">⛔ Hindari</button>
+  <span style="margin-left:auto;font-size:11px;color:var(--muted)" id="fc"></span>
 </div>
 
 <main id="main">
@@ -131,124 +162,139 @@
 </main>
 
 <script>
-const fmt  = (n,d=0) => n==null?'–':Number(n).toLocaleString('id-ID',{minimumFractionDigits:d,maximumFractionDigits:d});
-const DATA_URL = './data/latest.json';
-var _all = [], _filter = 'all';
+const fmt = (n,d=0) => n==null?'–':Number(n).toLocaleString('id-ID',{minimumFractionDigits:d,maximumFractionDigits:d});
+var _all=[], _f='all';
 
-const REC_META = {
-  BUY_DIVIDEND:      {label:'💰 Beli Dividen',     cls:'buy',   badge:'badge-buy'},
-  HOLD_DIVIDEND:     {label:'✅ Tahan Dividen',     cls:'hold',  badge:'badge-hold'},
-  SELL_CAPITAL_GAIN: {label:'📈 Alih Capital Gain', cls:'sell',  badge:'badge-sell'},
-  AVOID:             {label:'⛔ Hindari',           cls:'avoid', badge:'badge-avoid'},
-  WATCH:             {label:'👀 Pantau',            cls:'watch', badge:'badge-watch'},
+const REC = {
+  BUY_DIVIDEND:      {lbl:'💰 Beli Dividen',     cls:'buy',   bdg:'badge-buy'},
+  HOLD_DIVIDEND:     {lbl:'✅ Tahan Dividen',     cls:'hold',  bdg:'badge-hold'},
+  SELL_CAPITAL_GAIN: {lbl:'📈 Capital Gain',      cls:'sell',  bdg:'badge-sell'},
+  AVOID:             {lbl:'⛔ Hindari',           cls:'avoid', bdg:'badge-avoid'},
+  WATCH:             {lbl:'👀 Pantau',            cls:'watch', bdg:'badge-watch'},
 };
 
-function stars(n) {
-  return '★'.repeat(n) + '☆'.repeat(5-n);
-}
-
 function renderCard(r) {
-  const m  = REC_META[r.recommendation] || REC_META.WATCH;
-  const yc = r.yield_pct >= 7 ? 'pos' : r.yield_pct >= 5 ? 'neu' : 'neg';
-  const pc = r.payout_ratio > 80 ? 'neg' : r.payout_ratio > 60 ? 'neu' : 'pos';
-  const gc = r.div_growth_pct > 0 ? 'pos' : r.div_growth_pct < 0 ? 'neg' : 'neu';
+  const m   = REC[r.recommendation] || REC.WATCH;
+  const yc  = r.yield_pct >= 7 ? 'pos' : r.yield_pct >= 5 ? 'neu' : 'neg';
+  const pc  = r.payout_ratio > 110 ? 'neg' : r.payout_ratio > 80 ? 'neu' : 'pos';
+  const gc  = !r.div_growth_pct ? 'neu' : r.div_growth_pct > 0 ? 'pos' : 'neg';
 
-  const history = (r.div_history||[]).map(h =>
-    `<div class="div-year"><div class="div-year-label">${h.year}</div>
-     <div class="div-year-val">Rp${fmt(h.amount)}</div></div>`).join('');
+  // Star dots
+  const dots = Array.from({length:5},(_,i)=>`<span class="star${i<r.rating?' on':''}"></span>`).join('');
 
-  const warnings = (r.warnings||[]).map(w =>
-    `<div class="warning">⚠️ ${w}</div>`).join('');
+  // Ex-div metric
+  const exDiv = r.ex_div_date ? `
+    <div class="mbox">
+      <div class="mlbl">Ex-Div</div>
+      <div class="mval" style="font-size:11px;color:var(--gold)">${r.ex_div_date}</div>
+      <div class="msub">tanggal ex-dividen</div>
+    </div>` : '';
 
-  const exDiv = r.ex_div_date
-    ? `<div class="metric"><div class="metric-label">Ex-Div Date</div>
-       <div class="metric-val" style="font-size:12px;color:var(--gold)">${r.ex_div_date}</div>
-       <div class="metric-sub">tanggal ex-dividen</div></div>`
-    : '';
+  // Dividend bar chart
+  let barChart = '';
+  if ((r.div_history||[]).length > 0) {
+    const maxAmt = Math.max(...r.div_history.map(h=>h.amount));
+    const bars = r.div_history.map(h => {
+      const pct = maxAmt ? Math.max(8, (h.amount/maxAmt)*50) : 8;
+      return `<div class="div-bar-wrap">
+        <div class="div-bar-amt">Rp${fmt(h.amount)}</div>
+        <div class="div-bar" style="height:${pct}px"></div>
+        <div class="div-bar-year">${h.year}</div>
+      </div>`;
+    }).join('');
+    barChart = `<div class="div-history">
+      <div class="div-history-title">Riwayat Dividen Tahunan</div>
+      <div class="div-bars">${bars}</div>
+    </div>`;
+  }
 
-  return `<div class="stock-card ${m.cls}">
-    <div class="card-header" onclick="this.nextElementSibling.classList.toggle('open')">
-      <div class="header-top">
+  const warnings = (r.warnings||[]).map(w=>`<div class="warning">⚠️ ${w}</div>`).join('');
+
+  return `<div class="card ${m.cls}">
+    <div class="card-hd" onclick="this.nextElementSibling.classList.toggle('open')">
+      <div class="hd-top">
         <span class="ticker">${r.ticker}</span>
-        <span class="badge ${m.badge}">${m.label}</span>
-        <span class="sector-tag">${(r.sector||'–').split(' ').slice(0,2).join(' ')}</span>
-        <span style="font-size:12px;color:var(--muted)">Rp${fmt(r.price)}</span>
-        <span class="stars" title="${r.rating} bintang">${stars(r.rating||0)}</span>
+        <span class="badge ${m.bdg}">${m.lbl}</span>
+        <span class="sec-tag">${(r.sector||'–').split(' ').slice(0,2).join(' ')}</span>
+        <div class="price-blk">
+          <div class="price-main">Rp${fmt(r.price)}</div>
+        </div>
       </div>
       <div class="metrics">
-        <div class="metric">
-          <div class="metric-label">Dividend Yield</div>
-          <div class="metric-val ${yc}">${r.yield_pct?.toFixed(1)}%</div>
-          <div class="metric-sub">imbal hasil dividen/tahun</div>
+        <div class="mbox">
+          <div class="mlbl">Dividend Yield</div>
+          <div class="mval ${yc}">${r.yield_pct?.toFixed(1)}%</div>
+          <div class="msub">imbal hasil/tahun</div>
         </div>
-        <div class="metric">
-          <div class="metric-label">Dividen/Saham</div>
-          <div class="metric-val">Rp${fmt(r.dps)}</div>
-          <div class="metric-sub">per lembar saham/tahun</div>
+        <div class="mbox">
+          <div class="mlbl">Dividen/Lembar</div>
+          <div class="mval">Rp${fmt(r.dps)}</div>
+          <div class="msub">per saham/tahun</div>
         </div>
-        <div class="metric">
-          <div class="metric-label">Payout Ratio</div>
-          <div class="metric-val ${pc}">${r.payout_ratio?.toFixed(0)}%</div>
-          <div class="metric-sub">% laba dibayar dividen</div>
+        <div class="mbox">
+          <div class="mlbl">Payout Ratio</div>
+          <div class="mval ${pc}">${r.payout_ratio > 0 ? r.payout_ratio.toFixed(0)+'%' : '–'}</div>
+          <div class="msub">% laba → dividen</div>
         </div>
-        <div class="metric">
-          <div class="metric-label">Pertumbuhan</div>
-          <div class="metric-val ${gc}">${r.div_growth_pct != null ? (r.div_growth_pct > 0?'+':'') + r.div_growth_pct + '%' : '–'}</div>
-          <div class="metric-sub">pertumbuhan dividen YoY</div>
+        <div class="mbox">
+          <div class="mlbl">Pertumbuhan</div>
+          <div class="mval ${gc}">${r.div_growth_pct != null ? (r.div_growth_pct>0?'+':'')+r.div_growth_pct+'%' : '–'}</div>
+          <div class="msub">YoY dividen</div>
         </div>
-        <div class="metric">
-          <div class="metric-label">Riwayat</div>
-          <div class="metric-val">${r.div_years || 0} thn</div>
-          <div class="metric-sub">${r.div_consistent ? '✅ konsisten' : '⚠️ tidak konsisten'}</div>
+        <div class="mbox">
+          <div class="mlbl">Konsistensi</div>
+          <div class="mval" style="font-size:12px">${r.div_consistent ? '✅ Konsisten' : r.div_years > 0 ? '⚠️ Variatif' : '–'}</div>
+          <div class="msub">${r.div_years} tahun riwayat</div>
         </div>
         ${exDiv}
       </div>
-      <div style="margin-top:8px;font-size:11px;color:var(--muted)">click untuk detail ▾</div>
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-top:8px">
+        <div class="stars">${dots}</div>
+        <span class="expand-hint">klik untuk detail ▾</span>
+      </div>
     </div>
-    <div class="card-body">
+    <div class="card-bd">
       <div class="reasoning"><strong>📋 ${r.strategy}:</strong><br>${r.reasoning}</div>
       ${warnings}
-      ${history ? `<div style="margin-top:12px;font-size:11px;color:var(--muted);font-weight:700;text-transform:uppercase;letter-spacing:.4px;margin-bottom:6px">Riwayat Dividen (5 tahun terakhir)</div>
-      <div class="div-history">${history}</div>` : ''}
+      ${barChart}
       <div style="margin-top:10px;font-size:11px;color:var(--muted)">🕐 ${r.analyzed_at}</div>
     </div>
   </div>`;
 }
 
-function renderAll(results) {
-  var filtered = _filter === 'all' ? results : results.filter(r => r.recommendation === _filter);
-  var fc = document.getElementById('filter-count');
-  if (fc) fc.textContent = _filter === 'all' ? '' : filtered.length + ' saham';
+function render(results) {
+  const filtered = _f==='all' ? results : results.filter(r=>r.recommendation===_f);
+  const fc = document.getElementById('fc');
+  if (fc) fc.textContent = _f==='all' ? '' : filtered.length+' saham';
   document.getElementById('main').innerHTML =
-    `<div style="font-size:12px;color:var(--muted)">${filtered.length} saham · klik kartu untuk detail</div>` +
+    `<div style="font-size:12px;color:var(--muted)">${filtered.length} saham · klik kartu untuk detail lengkap</div>` +
     filtered.map(renderCard).join('');
 }
 
-function setFilter(f, btn) {
-  _filter = f;
-  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+function setF(f, btn) {
+  _f = f;
+  document.querySelectorAll('.fbtn').forEach(b=>b.classList.remove('active'));
   btn.classList.add('active');
-  renderAll(_all);
+  render(_all);
 }
 
 async function load() {
   try {
-    const r = await fetch(DATA_URL + '?t=' + Date.now());
+    const r = await fetch('./data/latest.json?t='+Date.now());
     if (!r.ok) throw new Error();
     const d = await r.json();
-    document.getElementById('gen-date').textContent = d.date || '–';
+    document.getElementById('gen-date').textContent = d.date||'–';
     document.getElementById('gen-time').textContent = d.generated_at;
-    document.getElementById('cnt-buy').textContent   = d.summary?.BUY_DIVIDEND || 0;
-    document.getElementById('cnt-hold').textContent  = d.summary?.HOLD_DIVIDEND || 0;
-    document.getElementById('cnt-sell').textContent  = d.summary?.SELL_CAPITAL_GAIN || 0;
-    document.getElementById('cnt-avoid').textContent = d.summary?.AVOID || 0;
-    document.getElementById('cnt-total').textContent = d.total || 0;
-    _all = d.results || [];
-    renderAll(_all);
+    document.getElementById('cnt-buy').textContent   = d.summary?.BUY_DIVIDEND||0;
+    document.getElementById('cnt-hold').textContent  = d.summary?.HOLD_DIVIDEND||0;
+    document.getElementById('cnt-sell').textContent  = d.summary?.SELL_CAPITAL_GAIN||0;
+    document.getElementById('cnt-avoid').textContent = d.summary?.AVOID||0;
+    document.getElementById('cnt-total').textContent = d.total||0;
+    _all = d.results||[];
+    render(_all);
   } catch(e) {
-    document.getElementById('main').innerHTML = `
-      <div class="loading"><div class="spinner"></div>
-      Data belum tersedia — jalankan dividend_scanner.py</div>`;
+    document.getElementById('main').innerHTML =
+      '<div class="loading"><div class="spinner"></div>Data belum tersedia — jalankan dividend_scanner.py</div>';
   }
 }
 load();
