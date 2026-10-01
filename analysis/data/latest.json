@@ -1,6 +1,6 @@
 {
-  "generated_at": "30 September 2026 23:08 WIB",
-  "date": "30 September 2026",
+  "generated_at": "01 October 2026 23:46 WIB",
+  "date": "01 October 2026",
   "total": 80,
   "min_yield": 5.0,
   "summary": {
@@ -13,10 +13,10 @@
   "results": [
     {
       "ticker": "BBCA",
-      "price": 6075.0,
+      "price": 6000.0,
       "sector": "Finance",
-      "market_cap": 746473167781888,
-      "yield_pct": 5.37,
+      "market_cap": 737257443033088,
+      "yield_pct": 5.43,
       "dps": 326.0,
       "payout_ratio": 69.1,
       "ex_div_date": "31 Aug 2026",
@@ -50,7 +50,7 @@
       "reasoning": "Yield 5.4% dengan payout ratio 69% yang sehat. Dividen tumbuh 6.9% YoY — momentum bagus. Cocok untuk investor dividen jangka panjang.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "BMRI",
@@ -91,14 +91,14 @@
       "reasoning": "Yield 13.5% dengan payout ratio 81% yang sehat. Dividen tumbuh 16.5% YoY — momentum bagus. Cocok untuk investor dividen jangka panjang.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "ANTM",
-      "price": 3200.0,
+      "price": 3120.0,
       "sector": "Non-Energy Minerals",
-      "market_cap": 76898445033472,
-      "yield_pct": 6.56,
+      "market_cap": 74975985795072,
+      "yield_pct": 6.73,
       "dps": 209.99,
       "payout_ratio": 56.7,
       "ex_div_date": "22 Jun 2026",
@@ -129,17 +129,17 @@
       ],
       "recommendation": "BUY_DIVIDEND",
       "strategy": "Dividend Investing",
-      "reasoning": "Yield 6.6% dengan payout ratio 57% yang sehat. Dividen tumbuh 38.4% YoY — momentum bagus. Cocok untuk investor dividen jangka panjang.",
+      "reasoning": "Yield 6.7% dengan payout ratio 57% yang sehat. Dividen tumbuh 38.4% YoY — momentum bagus. Cocok untuk investor dividen jangka panjang.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "CPIN",
-      "price": 2960.0,
+      "price": 2880.0,
       "sector": "Process Industries",
-      "market_cap": 48538079723520,
-      "yield_pct": 6.08,
+      "market_cap": 47226239844352,
+      "yield_pct": 6.25,
       "dps": 180.0,
       "payout_ratio": 40.4,
       "ex_div_date": "03 Jun 2026",
@@ -170,17 +170,17 @@
       ],
       "recommendation": "BUY_DIVIDEND",
       "strategy": "Dividend Investing",
-      "reasoning": "Yield 6.1% dengan payout ratio 40% yang sehat. Dividen tumbuh 66.7% YoY — momentum bagus. Cocok untuk investor dividen jangka panjang.",
+      "reasoning": "Yield 6.2% dengan payout ratio 40% yang sehat. Dividen tumbuh 66.7% YoY — momentum bagus. Cocok untuk investor dividen jangka panjang.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "EXCL",
-      "price": 2410.0,
+      "price": 2400.0,
       "sector": "Communications",
-      "market_cap": 43861669838848,
-      "yield_pct": 10.15,
+      "market_cap": 43679670599680,
+      "yield_pct": 10.2,
       "dps": 244.7,
       "payout_ratio": 0.0,
       "ex_div_date": "02 Dec 2025",
@@ -214,14 +214,14 @@
       "reasoning": "Yield 10.2% dengan payout ratio 0% yang sehat. Dividen tumbuh 403.5% YoY — momentum bagus. Cocok untuk investor dividen jangka panjang.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "SRTG",
-      "price": 1780.0,
+      "price": 1740.0,
       "sector": "Finance",
-      "market_cap": 24118703423488,
-      "yield_pct": 5.8,
+      "market_cap": 23576709169152,
+      "yield_pct": 5.94,
       "dps": 103.3,
       "payout_ratio": 42.2,
       "ex_div_date": "29 May 2026",
@@ -252,17 +252,17 @@
       ],
       "recommendation": "BUY_DIVIDEND",
       "strategy": "Dividend Investing",
-      "reasoning": "Yield 5.8% dengan payout ratio 42% yang sehat. Dividen tumbuh 600.3% YoY — momentum bagus. Cocok untuk investor dividen jangka panjang.",
+      "reasoning": "Yield 5.9% dengan payout ratio 42% yang sehat. Dividen tumbuh 600.3% YoY — momentum bagus. Cocok untuk investor dividen jangka panjang.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:09 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "JPFA",
-      "price": 2030.0,
+      "price": 2040.0,
       "sector": "Process Industries",
-      "market_cap": 23604169277440,
-      "yield_pct": 6.9,
+      "market_cap": 23720445870080,
+      "yield_pct": 6.86,
       "dps": 140.0,
       "payout_ratio": 31.2,
       "ex_div_date": "11 May 2026",
@@ -296,16 +296,16 @@
       "reasoning": "Yield 6.9% dengan payout ratio 31% yang sehat. Dividen tumbuh 100.0% YoY — momentum bagus. Cocok untuk investor dividen jangka panjang.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:09 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "ULTJ",
-      "price": 2050.0,
+      "price": 2060.0,
       "sector": "Consumer Non-Durables",
-      "market_cap": 21316258234368,
-      "yield_pct": 6.34,
+      "market_cap": 21420241321984,
+      "yield_pct": 6.31,
       "dps": 130.0,
-      "payout_ratio": 75.2,
+      "payout_ratio": 75.1,
       "ex_div_date": "04 May 2026",
       "div_years": 14,
       "div_growth_pct": 188.9,
@@ -337,14 +337,14 @@
       "reasoning": "Yield 6.3% dengan payout ratio 75% yang sehat. Dividen tumbuh 188.9% YoY — momentum bagus. Cocok untuk investor dividen jangka panjang.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:09 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "TLKM",
-      "price": 2290.0,
+      "price": 2250.0,
       "sector": "Communications",
-      "market_cap": 225750342959104,
-      "yield_pct": 9.75,
+      "market_cap": 221807109996544,
+      "yield_pct": 9.92,
       "dps": 223.17,
       "payout_ratio": 125.1,
       "ex_div_date": "18 Jun 2026",
@@ -375,17 +375,17 @@
       ],
       "recommendation": "HOLD_DIVIDEND",
       "strategy": "Dividend Investing",
-      "reasoning": "Yield 9.8% dengan payout ratio 125% yang sehat. Dividen stabil. Cocok untuk investor dividen jangka panjang.",
+      "reasoning": "Yield 9.9% dengan payout ratio 125% yang sehat. Dividen stabil. Cocok untuk investor dividen jangka panjang.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "BBNI",
-      "price": 3390.0,
+      "price": 3410.0,
       "sector": "Finance",
-      "market_cap": 126173950509056,
-      "yield_pct": 10.31,
+      "market_cap": 126918338805760,
+      "yield_pct": 10.25,
       "dps": 349.41,
       "payout_ratio": 63.0,
       "ex_div_date": "25 Mar 2026",
@@ -416,17 +416,17 @@
       ],
       "recommendation": "HOLD_DIVIDEND",
       "strategy": "Dividend Investing",
-      "reasoning": "Yield 10.3% dengan payout ratio 63% yang sehat. Dividen stabil. Cocok untuk investor dividen jangka panjang.",
+      "reasoning": "Yield 10.2% dengan payout ratio 63% yang sehat. Dividen stabil. Cocok untuk investor dividen jangka panjang.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "HMSP",
-      "price": 625.0,
+      "price": 605.0,
       "sector": "Consumer Non-Durables",
-      "market_cap": 72698797490176,
-      "yield_pct": 9.01,
+      "market_cap": 70372435165184,
+      "yield_pct": 9.31,
       "dps": 56.3,
       "payout_ratio": 75.1,
       "ex_div_date": "29 May 2026",
@@ -457,19 +457,19 @@
       ],
       "recommendation": "HOLD_DIVIDEND",
       "strategy": "Dividend Investing",
-      "reasoning": "Yield 9.0% dengan payout ratio 75% yang sehat. Dividen stabil. Cocok untuk investor dividen jangka panjang.",
+      "reasoning": "Yield 9.3% dengan payout ratio 75% yang sehat. Dividen stabil. Cocok untuk investor dividen jangka panjang.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "UNVR",
-      "price": 1620.0,
+      "price": 1625.0,
       "sector": "Consumer Non-Durables",
-      "market_cap": 61529596624896,
-      "yield_pct": 7.04,
+      "market_cap": 61719502127104,
+      "yield_pct": 7.02,
       "dps": 114.0,
-      "payout_ratio": 116.4,
+      "payout_ratio": 116.3,
       "ex_div_date": "15 Jun 2026",
       "div_years": 24,
       "div_growth_pct": -14.9,
@@ -501,14 +501,14 @@
       "reasoning": "Yield 7.0% dengan payout ratio 116% yang sehat. Dividen stabil. Cocok untuk investor dividen jangka panjang.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "BNGA",
-      "price": 1720.0,
+      "price": 1685.0,
       "sector": "Finance",
-      "market_cap": 43244016631808,
-      "yield_pct": 9.41,
+      "market_cap": 42364051652608,
+      "yield_pct": 9.6,
       "dps": 161.77,
       "payout_ratio": 59.3,
       "ex_div_date": "28 Apr 2026",
@@ -539,17 +539,17 @@
       ],
       "recommendation": "HOLD_DIVIDEND",
       "strategy": "Dividend Investing",
-      "reasoning": "Yield 9.4% dengan payout ratio 59% yang sehat. Dividen stabil. Cocok untuk investor dividen jangka panjang.",
+      "reasoning": "Yield 9.6% dengan payout ratio 59% yang sehat. Dividen stabil. Cocok untuk investor dividen jangka panjang.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "TAPG",
-      "price": 1935.0,
+      "price": 1920.0,
       "sector": "Process Industries",
-      "market_cap": 38414665646080,
-      "yield_pct": 7.8,
+      "market_cap": 38116878450688,
+      "yield_pct": 7.86,
       "dps": 151.0,
       "payout_ratio": 74.0,
       "ex_div_date": "12 Aug 2026",
@@ -580,10 +580,10 @@
       ],
       "recommendation": "HOLD_DIVIDEND",
       "strategy": "Dividend Investing",
-      "reasoning": "Yield 7.8% dengan payout ratio 74% yang sehat. Dividen stabil. Cocok untuk investor dividen jangka panjang.",
+      "reasoning": "Yield 7.9% dengan payout ratio 74% yang sehat. Dividen stabil. Cocok untuk investor dividen jangka panjang.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "AKRA",
@@ -624,14 +624,14 @@
       "reasoning": "Yield 6.9% dengan payout ratio 73% yang sehat. Dividen stabil. Cocok untuk investor dividen jangka panjang.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:09 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "MTEL",
-      "price": 450.0,
+      "price": 446.0,
       "sector": "Communications",
-      "market_cap": 36359477657600,
-      "yield_pct": 5.7,
+      "market_cap": 36036281368576,
+      "yield_pct": 5.75,
       "dps": 25.65,
       "payout_ratio": 95.1,
       "ex_div_date": "07 Jul 2026",
@@ -662,17 +662,17 @@
       ],
       "recommendation": "HOLD_DIVIDEND",
       "strategy": "Dividend Investing",
-      "reasoning": "Yield 5.7% dengan payout ratio 95% yang sehat. Dividen stabil. Cocok untuk investor dividen jangka panjang.",
+      "reasoning": "Yield 5.8% dengan payout ratio 95% yang sehat. Dividen stabil. Cocok untuk investor dividen jangka panjang.",
       "rating": 4,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "PGEO",
-      "price": 975.0,
+      "price": 955.0,
       "sector": "Utilities",
-      "market_cap": 40895441272832,
-      "yield_pct": 5.07,
+      "market_cap": 40056559501312,
+      "yield_pct": 5.18,
       "dps": 49.44,
       "payout_ratio": 83.1,
       "ex_div_date": "30 Apr 2026",
@@ -699,19 +699,19 @@
       ],
       "recommendation": "HOLD_DIVIDEND",
       "strategy": "Dividend Investing",
-      "reasoning": "Yield 5.1% dengan payout ratio 83% yang sehat. Dividen stabil. Cocok untuk investor dividen jangka panjang.",
+      "reasoning": "Yield 5.2% dengan payout ratio 83% yang sehat. Dividen stabil. Cocok untuk investor dividen jangka panjang.",
       "rating": 3,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "BYAN",
-      "price": 11800.0,
+      "price": 11650.0,
       "sector": "Energy Minerals",
-      "market_cap": 393333339848704,
-      "yield_pct": 2.27,
+      "market_cap": 388333326827520,
+      "yield_pct": 2.29,
       "dps": 267.29,
-      "payout_ratio": 59.5,
+      "payout_ratio": 59.3,
       "ex_div_date": "22 Jun 2026",
       "div_years": 11,
       "div_growth_pct": 37.2,
@@ -743,7 +743,7 @@
       "reasoning": "Yield 2.3% belum mencapai target 5%. Pantau saat harga turun.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "BRPT",
@@ -752,7 +752,7 @@
       "market_cap": 131664999088128,
       "yield_pct": 0.12,
       "dps": 1.63,
-      "payout_ratio": 6.1,
+      "payout_ratio": 6.0,
       "ex_div_date": "06 Jul 2026",
       "div_years": 6,
       "div_growth_pct": 86.7,
@@ -784,13 +784,13 @@
       "reasoning": "Yield 0.1% belum mencapai target 5%. Pantau saat harga turun.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "PANI",
-      "price": 4470.0,
+      "price": 4450.0,
       "sector": "Consumer Non-Durables",
-      "market_cap": 81307077967872,
+      "market_cap": 80943289204736,
       "yield_pct": 0.11,
       "dps": 5.0,
       "payout_ratio": 3.5,
@@ -817,14 +817,14 @@
       "reasoning": "Yield 0.1% belum mencapai target 5%. Pantau saat harga turun.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "ICBP",
-      "price": 6675.0,
+      "price": 6625.0,
       "sector": "Consumer Non-Durables",
-      "market_cap": 77843237175296,
-      "yield_pct": 3.97,
+      "market_cap": 77260136644608,
+      "yield_pct": 4.0,
       "dps": 265.0,
       "payout_ratio": 41.9,
       "ex_div_date": "07 Jul 2026",
@@ -858,7 +858,7 @@
       "reasoning": "Yield 4.0% belum mencapai target 5%. Pantau saat harga turun.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "ISAT",
@@ -899,14 +899,14 @@
       "reasoning": "Yield 4.9% belum mencapai target 5%. Pantau saat harga turun.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "BRIS",
-      "price": 1420.0,
+      "price": 1425.0,
       "sector": "Finance",
-      "market_cap": 65503548669952,
-      "yield_pct": 2.31,
+      "market_cap": 65734193446912,
+      "yield_pct": 2.3,
       "dps": 32.81,
       "payout_ratio": 19.0,
       "ex_div_date": "18 May 2026",
@@ -940,16 +940,16 @@
       "reasoning": "Yield 2.3% belum mencapai target 5%. Pantau saat harga turun.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "INDF",
-      "price": 6725.0,
+      "price": 6750.0,
       "sector": "Consumer Non-Durables",
-      "market_cap": 59048368013312,
-      "yield_pct": 4.31,
+      "market_cap": 59267876913152,
+      "yield_pct": 4.3,
       "dps": 290.0,
-      "payout_ratio": 26.5,
+      "payout_ratio": 26.6,
       "ex_div_date": "07 Jul 2026",
       "div_years": 26,
       "div_growth_pct": 3.6,
@@ -981,55 +981,14 @@
       "reasoning": "Yield 4.3% belum mencapai target 5%. Pantau saat harga turun.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
-    },
-    {
-      "ticker": "FORU",
-      "price": 224.0,
-      "sector": "Commercial Services",
-      "market_cap": 2032547528704,
-      "yield_pct": 0.23,
-      "dps": 0.51,
-      "payout_ratio": 0.0,
-      "ex_div_date": "18 Jul 2014",
-      "div_years": 9,
-      "div_growth_pct": 42.9,
-      "div_consistent": true,
-      "div_history": [
-        {
-          "year": "2010",
-          "amount": 0.21
-        },
-        {
-          "year": "2011",
-          "amount": 0.21
-        },
-        {
-          "year": "2012",
-          "amount": 0.36
-        },
-        {
-          "year": "2013",
-          "amount": 0.36
-        },
-        {
-          "year": "2014",
-          "amount": 0.51
-        }
-      ],
-      "recommendation": "WATCH",
-      "strategy": "Yield Rendah",
-      "reasoning": "Yield 0.2% belum mencapai target 5%. Pantau saat harga turun.",
-      "rating": 5,
-      "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "NCKL",
-      "price": 870.0,
+      "price": 860.0,
       "sector": "Non-Energy Minerals",
-      "market_cap": 54799441592320,
-      "yield_pct": 4.9,
+      "market_cap": 54169566183424,
+      "yield_pct": 4.96,
       "dps": 42.64,
       "payout_ratio": 25.2,
       "ex_div_date": "09 Jul 2026",
@@ -1056,17 +1015,17 @@
       ],
       "recommendation": "WATCH",
       "strategy": "Yield Rendah",
-      "reasoning": "Yield 4.9% belum mencapai target 5%. Pantau saat harga turun.",
+      "reasoning": "Yield 5.0% belum mencapai target 5%. Pantau saat harga turun.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "AMRT",
-      "price": 1320.0,
+      "price": 1295.0,
       "sector": "Retail Trade",
-      "market_cap": 54241221672960,
-      "yield_pct": 3.14,
+      "market_cap": 53213923377152,
+      "yield_pct": 3.2,
       "dps": 41.5,
       "payout_ratio": 48.2,
       "ex_div_date": "15 Jun 2026",
@@ -1097,51 +1056,22 @@
       ],
       "recommendation": "WATCH",
       "strategy": "Yield Rendah",
-      "reasoning": "Yield 3.1% belum mencapai target 5%. Pantau saat harga turun.",
+      "reasoning": "Yield 3.2% belum mencapai target 5%. Pantau saat harga turun.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
-    },
-    {
-      "ticker": "PGUN",
-      "price": 9750.0,
-      "sector": "Process Industries",
-      "market_cap": 55944025210880,
-      "yield_pct": 0.07,
-      "dps": 6.97,
-      "payout_ratio": 33.9,
-      "ex_div_date": "04 Jun 2026",
-      "div_years": 2,
-      "div_growth_pct": 236.7,
-      "div_consistent": true,
-      "div_history": [
-        {
-          "year": "2025",
-          "amount": 2.07
-        },
-        {
-          "year": "2026",
-          "amount": 6.97
-        }
-      ],
-      "recommendation": "WATCH",
-      "strategy": "Yield Rendah",
-      "reasoning": "Yield 0.1% belum mencapai target 5%. Pantau saat harga turun.",
-      "rating": 5,
-      "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "PTRO",
-      "price": 5125.0,
+      "price": 5225.0,
       "sector": "Industrial Services",
-      "market_cap": 51691005149184,
-      "yield_pct": 0.35,
-      "dps": 17.71,
-      "payout_ratio": 35.2,
+      "market_cap": 52699609432064,
+      "yield_pct": 0.34,
+      "dps": 17.77,
+      "payout_ratio": 35.4,
       "ex_div_date": "30 Apr 2025",
       "div_years": 18,
-      "div_growth_pct": 257.5,
+      "div_growth_pct": 258.7,
       "div_consistent": true,
       "div_history": [
         {
@@ -1162,7 +1092,7 @@
         },
         {
           "year": "2025",
-          "amount": 17.71
+          "amount": 17.77
         }
       ],
       "recommendation": "WATCH",
@@ -1170,57 +1100,57 @@
       "reasoning": "Yield 0.3% belum mencapai target 5%. Pantau saat harga turun.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
-      "ticker": "INCO",
-      "price": 4220.0,
-      "sector": "Non-Energy Minerals",
-      "market_cap": 44477888593920,
-      "yield_pct": 1.85,
-      "dps": 77.9,
-      "payout_ratio": 29.5,
-      "ex_div_date": "11 Jun 2026",
-      "div_years": 14,
-      "div_growth_pct": 45.9,
+      "ticker": "FORU",
+      "price": 191.0,
+      "sector": "Commercial Services",
+      "market_cap": 1733109743616,
+      "yield_pct": 0.27,
+      "dps": 0.51,
+      "payout_ratio": 0.0,
+      "ex_div_date": "18 Jul 2014",
+      "div_years": 9,
+      "div_growth_pct": 42.9,
       "div_consistent": true,
       "div_history": [
         {
+          "year": "2010",
+          "amount": 0.21
+        },
+        {
+          "year": "2011",
+          "amount": 0.21
+        },
+        {
+          "year": "2012",
+          "amount": 0.36
+        },
+        {
+          "year": "2013",
+          "amount": 0.36
+        },
+        {
           "year": "2014",
-          "amount": 122.06
-        },
-        {
-          "year": "2021",
-          "amount": 46.63
-        },
-        {
-          "year": "2023",
-          "amount": 88.33
-        },
-        {
-          "year": "2025",
-          "amount": 53.4
-        },
-        {
-          "year": "2026",
-          "amount": 77.9
+          "amount": 0.51
         }
       ],
       "recommendation": "WATCH",
       "strategy": "Yield Rendah",
-      "reasoning": "Yield 1.9% belum mencapai target 5%. Pantau saat harga turun.",
+      "reasoning": "Yield 0.3% belum mencapai target 5%. Pantau saat harga turun.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "INKP",
-      "price": 8225.0,
+      "price": 7975.0,
       "sector": "Process Industries",
-      "market_cap": 44998837927936,
-      "yield_pct": 0.91,
+      "market_cap": 43631092170752,
+      "yield_pct": 0.94,
       "dps": 75.0,
-      "payout_ratio": 3.5,
+      "payout_ratio": 3.4,
       "ex_div_date": "02 Jul 2026",
       "div_years": 13,
       "div_growth_pct": 50.0,
@@ -1252,14 +1182,55 @@
       "reasoning": "Yield 0.9% belum mencapai target 5%. Pantau saat harga turun.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
+    },
+    {
+      "ticker": "INCO",
+      "price": 4130.0,
+      "sector": "Non-Energy Minerals",
+      "market_cap": 43529308995584,
+      "yield_pct": 1.89,
+      "dps": 77.9,
+      "payout_ratio": 29.4,
+      "ex_div_date": "11 Jun 2026",
+      "div_years": 14,
+      "div_growth_pct": 45.9,
+      "div_consistent": true,
+      "div_history": [
+        {
+          "year": "2014",
+          "amount": 122.06
+        },
+        {
+          "year": "2021",
+          "amount": 46.63
+        },
+        {
+          "year": "2023",
+          "amount": 88.33
+        },
+        {
+          "year": "2025",
+          "amount": 53.4
+        },
+        {
+          "year": "2026",
+          "amount": 77.9
+        }
+      ],
+      "recommendation": "WATCH",
+      "strategy": "Yield Rendah",
+      "reasoning": "Yield 1.9% belum mencapai target 5%. Pantau saat harga turun.",
+      "rating": 5,
+      "warnings": [],
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "BDMN",
-      "price": 4450.0,
+      "price": 4630.0,
       "sector": "Finance",
-      "market_cap": 43492311040000,
-      "yield_pct": 3.2,
+      "market_cap": 45251548938240,
+      "yield_pct": 3.07,
       "dps": 142.19,
       "payout_ratio": 30.5,
       "ex_div_date": "10 Apr 2026",
@@ -1290,17 +1261,17 @@
       ],
       "recommendation": "WATCH",
       "strategy": "Yield Rendah",
-      "reasoning": "Yield 3.2% belum mencapai target 5%. Pantau saat harga turun.",
+      "reasoning": "Yield 3.1% belum mencapai target 5%. Pantau saat harga turun.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "TINS",
-      "price": 4650.0,
+      "price": 4590.0,
       "sector": "Non-Energy Minerals",
-      "market_cap": 34632051458048,
-      "yield_pct": 1.9,
+      "market_cap": 34185188212736,
+      "yield_pct": 1.92,
       "dps": 88.19,
       "payout_ratio": 17.6,
       "ex_div_date": "24 Jun 2026",
@@ -1334,14 +1305,14 @@
       "reasoning": "Yield 1.9% belum mencapai target 5%. Pantau saat harga turun.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "CMRY",
-      "price": 4350.0,
+      "price": 4340.0,
       "sector": "Distribution Services",
-      "market_cap": 34515871334400,
-      "yield_pct": 4.6,
+      "market_cap": 34436525588480,
+      "yield_pct": 4.61,
       "dps": 200.0,
       "payout_ratio": 71.8,
       "ex_div_date": "04 Sep 2026",
@@ -1375,14 +1346,43 @@
       "reasoning": "Yield 4.6% belum mencapai target 5%. Pantau saat harga turun.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
+    },
+    {
+      "ticker": "JARR",
+      "price": 3480.0,
+      "sector": "Process Industries",
+      "market_cap": 32122712621056,
+      "yield_pct": 0.19,
+      "dps": 6.5,
+      "payout_ratio": 22.4,
+      "ex_div_date": "26 Jun 2026",
+      "div_years": 2,
+      "div_growth_pct": 15.0,
+      "div_consistent": true,
+      "div_history": [
+        {
+          "year": "2025",
+          "amount": 5.65
+        },
+        {
+          "year": "2026",
+          "amount": 6.5
+        }
+      ],
+      "recommendation": "WATCH",
+      "strategy": "Yield Rendah",
+      "reasoning": "Yield 0.2% belum mencapai target 5%. Pantau saat harga turun.",
+      "rating": 5,
+      "warnings": [],
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "GGRM",
-      "price": 16825.0,
+      "price": 16575.0,
       "sector": "Consumer Non-Durables",
-      "market_cap": 32372781219840,
-      "yield_pct": 4.75,
+      "market_cap": 31891759562752,
+      "yield_pct": 4.83,
       "dps": 800.0,
       "payout_ratio": 34.9,
       "ex_div_date": "02 Jul 2026",
@@ -1416,14 +1416,14 @@
       "reasoning": "Yield 4.8% belum mencapai target 5%. Pantau saat harga turun.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "MYOR",
-      "price": 1390.0,
+      "price": 1370.0,
       "sector": "Consumer Non-Durables",
-      "market_cap": 30617091702784,
-      "yield_pct": 4.32,
+      "market_cap": 30176557662208,
+      "yield_pct": 4.38,
       "dps": 60.0,
       "payout_ratio": 39.1,
       "ex_div_date": "15 Jun 2026",
@@ -1454,46 +1454,17 @@
       ],
       "recommendation": "WATCH",
       "strategy": "Yield Rendah",
-      "reasoning": "Yield 4.3% belum mencapai target 5%. Pantau saat harga turun.",
+      "reasoning": "Yield 4.4% belum mencapai target 5%. Pantau saat harga turun.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
-    },
-    {
-      "ticker": "JARR",
-      "price": 3580.0,
-      "sector": "Process Industries",
-      "market_cap": 33045780365312,
-      "yield_pct": 0.18,
-      "dps": 6.5,
-      "payout_ratio": 22.6,
-      "ex_div_date": "26 Jun 2026",
-      "div_years": 2,
-      "div_growth_pct": 15.0,
-      "div_consistent": true,
-      "div_history": [
-        {
-          "year": "2025",
-          "amount": 5.65
-        },
-        {
-          "year": "2026",
-          "amount": 6.5
-        }
-      ],
-      "recommendation": "WATCH",
-      "strategy": "Yield Rendah",
-      "reasoning": "Yield 0.2% belum mencapai target 5%. Pantau saat harga turun.",
-      "rating": 5,
-      "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:09 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "SILO",
-      "price": 2050.0,
+      "price": 2030.0,
       "sector": "Health Services",
-      "market_cap": 26625313865728,
-      "yield_pct": 0.98,
+      "market_cap": 26365554327552,
+      "yield_pct": 0.99,
       "dps": 20.0,
       "payout_ratio": 21.0,
       "ex_div_date": "10 Jun 2024",
@@ -1527,14 +1498,14 @@
       "reasoning": "Yield 1.0% belum mencapai target 5%. Pantau saat harga turun.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:09 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "MAPI",
-      "price": 1550.0,
+      "price": 1480.0,
       "sector": "Retail Trade",
-      "market_cap": 25729999831040,
-      "yield_pct": 0.65,
+      "market_cap": 24568001462272,
+      "yield_pct": 0.68,
       "dps": 10.0,
       "payout_ratio": 6.7,
       "ex_div_date": "03 Jul 2026",
@@ -1568,14 +1539,14 @@
       "reasoning": "Yield 0.7% belum mencapai target 5%. Pantau saat harga turun.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:09 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "MIKA",
-      "price": 1700.0,
+      "price": 1670.0,
       "sector": "Health Services",
-      "market_cap": 23641307742208,
-      "yield_pct": 2.53,
+      "market_cap": 23224106614784,
+      "yield_pct": 2.57,
       "dps": 43.0,
       "payout_ratio": 42.4,
       "ex_div_date": "19 Jun 2026",
@@ -1606,17 +1577,17 @@
       ],
       "recommendation": "WATCH",
       "strategy": "Yield Rendah",
-      "reasoning": "Yield 2.5% belum mencapai target 5%. Pantau saat harga turun.",
+      "reasoning": "Yield 2.6% belum mencapai target 5%. Pantau saat harga turun.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:09 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "TKIM",
-      "price": 7175.0,
+      "price": 6925.0,
       "sector": "Process Industries",
-      "market_cap": 22337380417536,
-      "yield_pct": 0.42,
+      "market_cap": 21559074881536,
+      "yield_pct": 0.43,
       "dps": 30.0,
       "payout_ratio": 1.2,
       "ex_div_date": "02 Jul 2026",
@@ -1650,55 +1621,14 @@
       "reasoning": "Yield 0.4% belum mencapai target 5%. Pantau saat harga turun.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:09 WIB"
-    },
-    {
-      "ticker": "PNBN",
-      "price": 845.0,
-      "sector": "Finance",
-      "market_cap": 20340732329984,
-      "yield_pct": 4.97,
-      "dps": 42.0,
-      "payout_ratio": 37.0,
-      "ex_div_date": "26 Jun 2026",
-      "div_years": 6,
-      "div_growth_pct": 0.0,
-      "div_consistent": true,
-      "div_history": [
-        {
-          "year": "2004",
-          "amount": 5.63
-        },
-        {
-          "year": "2005",
-          "amount": 28.0
-        },
-        {
-          "year": "2022",
-          "amount": 20.0
-        },
-        {
-          "year": "2025",
-          "amount": 42.0
-        },
-        {
-          "year": "2026",
-          "amount": 42.0
-        }
-      ],
-      "recommendation": "WATCH",
-      "strategy": "Yield Rendah",
-      "reasoning": "Yield 5.0% belum mencapai target 5%. Pantau saat harga turun.",
-      "rating": 5,
-      "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:09 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "SMAR",
-      "price": 7700.0,
+      "price": 7225.0,
       "sector": "Process Industries",
-      "market_cap": 22115887611904,
-      "yield_pct": 3.51,
+      "market_cap": 20751595864064,
+      "yield_pct": 3.74,
       "dps": 270.0,
       "payout_ratio": 18.9,
       "ex_div_date": "05 Jun 2026",
@@ -1729,19 +1659,19 @@
       ],
       "recommendation": "WATCH",
       "strategy": "Yield Rendah",
-      "reasoning": "Yield 3.5% belum mencapai target 5%. Pantau saat harga turun.",
+      "reasoning": "Yield 3.7% belum mencapai target 5%. Pantau saat harga turun.",
       "rating": 5,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:09 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "TPIA",
-      "price": 1735.0,
+      "price": 1730.0,
       "sector": "Process Industries",
-      "market_cap": 150015892783104,
+      "market_cap": 149583577481216,
       "yield_pct": 0.35,
       "dps": 6.07,
-      "payout_ratio": 42.0,
+      "payout_ratio": 42.2,
       "ex_div_date": "26 May 2026",
       "div_years": 16,
       "div_growth_pct": -36.3,
@@ -1775,14 +1705,14 @@
       "warnings": [
         "Dividen turun 36% dibanding tahun lalu"
       ],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "UNTR",
-      "price": 27075.0,
+      "price": 26350.0,
       "sector": "Energy Minerals",
-      "market_cap": 94575507013632,
-      "yield_pct": 4.05,
+      "market_cap": 92043019812864,
+      "yield_pct": 4.16,
       "dps": 1096.0,
       "payout_ratio": 51.8,
       "ex_div_date": "07 Oct 2026",
@@ -1813,19 +1743,19 @@
       ],
       "recommendation": "WATCH",
       "strategy": "Yield Rendah",
-      "reasoning": "Yield 4.0% belum mencapai target 5%. Pantau saat harga turun.",
+      "reasoning": "Yield 4.2% belum mencapai target 5%. Pantau saat harga turun.",
       "rating": 4,
       "warnings": [
         "Dividen turun 47% dibanding tahun lalu"
       ],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "AADI",
-      "price": 10950.0,
+      "price": 11150.0,
       "sector": "Energy Minerals",
-      "market_cap": 85266467389440,
-      "yield_pct": 4.23,
+      "market_cap": 86823846019072,
+      "yield_pct": 4.16,
       "dps": 463.32,
       "payout_ratio": 24.9,
       "ex_div_date": "05 Jun 2026",
@@ -1847,16 +1777,16 @@
       "reasoning": "Yield 4.2% belum mencapai target 5%. Pantau saat harga turun.",
       "rating": 4,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "IMPC",
-      "price": 1425.0,
+      "price": 1360.0,
       "sector": "Producer Manufacturing",
-      "market_cap": 77926519275520,
-      "yield_pct": 0.32,
+      "market_cap": 74371980853248,
+      "yield_pct": 0.33,
       "dps": 4.5,
-      "payout_ratio": 32.0,
+      "payout_ratio": 31.9,
       "ex_div_date": "31 May 2024",
       "div_years": 9,
       "div_growth_pct": -86.4,
@@ -1890,16 +1820,16 @@
       "warnings": [
         "Dividen turun 86% dibanding tahun lalu"
       ],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "ADRO",
-      "price": 2430.0,
+      "price": 2410.0,
       "sector": "Energy Minerals",
-      "market_cap": 69985200242688,
-      "yield_pct": 4.87,
+      "market_cap": 69409188085760,
+      "yield_pct": 4.91,
       "dps": 118.26,
-      "payout_ratio": 33.4,
+      "payout_ratio": 32.6,
       "ex_div_date": "28 Apr 2026",
       "div_years": 18,
       "div_growth_pct": -62.1,
@@ -1933,16 +1863,16 @@
       "warnings": [
         "Dividen turun 62% dibanding tahun lalu"
       ],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "ADMR",
-      "price": 1460.0,
+      "price": 1440.0,
       "sector": "Energy Minerals",
-      "market_cap": 59688204894208,
-      "yield_pct": 3.47,
+      "market_cap": 58870558883840,
+      "yield_pct": 3.52,
       "dps": 50.62,
-      "payout_ratio": 37.2,
+      "payout_ratio": 37.4,
       "ex_div_date": "28 Apr 2026",
       "div_years": 2,
       "div_growth_pct": 5.9,
@@ -1962,16 +1892,16 @@
       "reasoning": "Yield 3.5% belum mencapai target 5%. Pantau saat harga turun.",
       "rating": 4,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "MLPT",
-      "price": 980.0,
+      "price": 935.0,
       "sector": "Technology Services",
-      "market_cap": 45937502191616,
-      "yield_pct": 0.33,
+      "market_cap": 43828123795456,
+      "yield_pct": 0.34,
       "dps": 3.2,
-      "payout_ratio": 39.3,
+      "payout_ratio": 39.4,
       "ex_div_date": "11 May 2026",
       "div_years": 13,
       "div_growth_pct": -42.7,
@@ -2005,14 +1935,100 @@
       "warnings": [
         "Dividen turun 43% dibanding tahun lalu"
       ],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
+    },
+    {
+      "ticker": "GEMS",
+      "price": 8150.0,
+      "sector": "Energy Minerals",
+      "market_cap": 47941179932672,
+      "yield_pct": 2.92,
+      "dps": 237.95,
+      "payout_ratio": 34.9,
+      "ex_div_date": "02 Jun 2026",
+      "div_years": 14,
+      "div_growth_pct": -59.4,
+      "div_consistent": true,
+      "div_history": [
+        {
+          "year": "2022",
+          "amount": 1334.17
+        },
+        {
+          "year": "2023",
+          "amount": 1084.45
+        },
+        {
+          "year": "2024",
+          "amount": 1283.63
+        },
+        {
+          "year": "2025",
+          "amount": 586.15
+        },
+        {
+          "year": "2026",
+          "amount": 237.95
+        }
+      ],
+      "recommendation": "WATCH",
+      "strategy": "Yield Rendah",
+      "reasoning": "Yield 2.9% belum mencapai target 5%. Pantau saat harga turun.",
+      "rating": 4,
+      "warnings": [
+        "Dividen turun 59% dibanding tahun lalu"
+      ],
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
+    },
+    {
+      "ticker": "PTBA",
+      "price": 3050.0,
+      "sector": "Energy Minerals",
+      "market_cap": 35118787854336,
+      "yield_pct": 3.75,
+      "dps": 114.51,
+      "payout_ratio": 27.8,
+      "ex_div_date": "23 Jun 2026",
+      "div_years": 24,
+      "div_growth_pct": -65.6,
+      "div_consistent": true,
+      "div_history": [
+        {
+          "year": "2022",
+          "amount": 688.51
+        },
+        {
+          "year": "2023",
+          "amount": 1094.05
+        },
+        {
+          "year": "2024",
+          "amount": 397.71
+        },
+        {
+          "year": "2025",
+          "amount": 332.44
+        },
+        {
+          "year": "2026",
+          "amount": 114.51
+        }
+      ],
+      "recommendation": "WATCH",
+      "strategy": "Yield Rendah",
+      "reasoning": "Yield 3.8% belum mencapai target 5%. Pantau saat harga turun.",
+      "rating": 4,
+      "warnings": [
+        "Dividen turun 66% dibanding tahun lalu"
+      ],
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "MEDC",
-      "price": 1390.0,
+      "price": 1380.0,
       "sector": "Energy Minerals",
-      "market_cap": 34370440134656,
-      "yield_pct": 2.32,
+      "market_cap": 34123171233792,
+      "yield_pct": 2.34,
       "dps": 32.25,
       "payout_ratio": 12.8,
       "ex_div_date": "15 Jun 2026",
@@ -2048,57 +2064,14 @@
       "warnings": [
         "Dividen turun 40% dibanding tahun lalu"
       ],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
-    },
-    {
-      "ticker": "PTBA",
-      "price": 3120.0,
-      "sector": "Energy Minerals",
-      "market_cap": 35924792573952,
-      "yield_pct": 3.67,
-      "dps": 114.51,
-      "payout_ratio": 27.8,
-      "ex_div_date": "23 Jun 2026",
-      "div_years": 24,
-      "div_growth_pct": -65.6,
-      "div_consistent": true,
-      "div_history": [
-        {
-          "year": "2022",
-          "amount": 688.51
-        },
-        {
-          "year": "2023",
-          "amount": 1094.05
-        },
-        {
-          "year": "2024",
-          "amount": 397.71
-        },
-        {
-          "year": "2025",
-          "amount": 332.44
-        },
-        {
-          "year": "2026",
-          "amount": 114.51
-        }
-      ],
-      "recommendation": "WATCH",
-      "strategy": "Yield Rendah",
-      "reasoning": "Yield 3.7% belum mencapai target 5%. Pantau saat harga turun.",
-      "rating": 4,
-      "warnings": [
-        "Dividen turun 66% dibanding tahun lalu"
-      ],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "KLBF",
-      "price": 730.0,
+      "price": 720.0,
       "sector": "Health Technology",
-      "market_cap": 33031668629504,
-      "yield_pct": 2.74,
+      "market_cap": 32579178725376,
+      "yield_pct": 2.78,
       "dps": 20.0,
       "payout_ratio": 25.1,
       "ex_div_date": "04 Jun 2026",
@@ -2129,19 +2102,19 @@
       ],
       "recommendation": "WATCH",
       "strategy": "Yield Rendah",
-      "reasoning": "Yield 2.7% belum mencapai target 5%. Pantau saat harga turun.",
+      "reasoning": "Yield 2.8% belum mencapai target 5%. Pantau saat harga turun.",
       "rating": 4,
       "warnings": [
         "Dividen turun 44% dibanding tahun lalu"
       ],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "ARCI",
-      "price": 1230.0,
+      "price": 1210.0,
       "sector": "Non-Energy Minerals",
-      "market_cap": 31039049170944,
-      "yield_pct": 1.68,
+      "market_cap": 30534348570624,
+      "yield_pct": 1.71,
       "dps": 20.69,
       "payout_ratio": 19.6,
       "ex_div_date": "20 May 2026",
@@ -2163,14 +2136,14 @@
       "reasoning": "Yield 1.7% belum mencapai target 5%. Pantau saat harga turun.",
       "rating": 4,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:09 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "NISP",
-      "price": 1250.0,
+      "price": 1240.0,
       "sector": "Finance",
-      "market_cap": 28681619636224,
-      "yield_pct": 3.6,
+      "market_cap": 28452168138752,
+      "yield_pct": 3.63,
       "dps": 45.0,
       "payout_ratio": 19.8,
       "ex_div_date": "20 Apr 2026",
@@ -2206,14 +2179,14 @@
       "warnings": [
         "Dividen turun 58% dibanding tahun lalu"
       ],
-      "analyzed_at": "30 Sep 2026 23:09 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "ITMG",
-      "price": 25200.0,
+      "price": 24650.0,
       "sector": "Energy Minerals",
-      "market_cap": 27788046237696,
-      "yield_pct": 3.94,
+      "market_cap": 27181562462208,
+      "yield_pct": 4.02,
       "dps": 992.0,
       "payout_ratio": 29.4,
       "ex_div_date": "28 Apr 2026",
@@ -2244,19 +2217,19 @@
       ],
       "recommendation": "WATCH",
       "strategy": "Yield Rendah",
-      "reasoning": "Yield 3.9% belum mencapai target 5%. Pantau saat harga turun.",
+      "reasoning": "Yield 4.0% belum mencapai target 5%. Pantau saat harga turun.",
       "rating": 4,
       "warnings": [
         "Dividen turun 67% dibanding tahun lalu"
       ],
-      "analyzed_at": "30 Sep 2026 23:09 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "EMTK",
-      "price": 388.0,
+      "price": 384.0,
       "sector": "Consumer Services",
-      "market_cap": 23738812727296,
-      "yield_pct": 1.29,
+      "market_cap": 23494081380352,
+      "yield_pct": 1.3,
       "dps": 5.0,
       "payout_ratio": 13.6,
       "ex_div_date": "04 Jun 2026",
@@ -2292,14 +2265,14 @@
       "warnings": [
         "Dividen turun 87% dibanding tahun lalu"
       ],
-      "analyzed_at": "30 Sep 2026 23:09 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "TOWR",
-      "price": 400.0,
+      "price": 404.0,
       "sector": "Finance",
-      "market_cap": 23284632518656,
-      "yield_pct": 1.72,
+      "market_cap": 23517479305216,
+      "yield_pct": 1.71,
       "dps": 6.89,
       "payout_ratio": 10.1,
       "ex_div_date": "03 Jun 2026",
@@ -2335,59 +2308,16 @@
       "warnings": [
         "Dividen turun 70% dibanding tahun lalu"
       ],
-      "analyzed_at": "30 Sep 2026 23:09 WIB"
-    },
-    {
-      "ticker": "AVIA",
-      "price": 326.0,
-      "sector": "Process Industries",
-      "market_cap": 19267760160768,
-      "yield_pct": 3.68,
-      "dps": 12.0,
-      "payout_ratio": 37.4,
-      "ex_div_date": "20 Apr 2026",
-      "div_years": 5,
-      "div_growth_pct": -45.5,
-      "div_consistent": true,
-      "div_history": [
-        {
-          "year": "2022",
-          "amount": 18.0
-        },
-        {
-          "year": "2023",
-          "amount": 22.0
-        },
-        {
-          "year": "2024",
-          "amount": 22.0
-        },
-        {
-          "year": "2025",
-          "amount": 22.0
-        },
-        {
-          "year": "2026",
-          "amount": 12.0
-        }
-      ],
-      "recommendation": "WATCH",
-      "strategy": "Yield Rendah",
-      "reasoning": "Yield 3.7% belum mencapai target 5%. Pantau saat harga turun.",
-      "rating": 4,
-      "warnings": [
-        "Dividen turun 46% dibanding tahun lalu"
-      ],
-      "analyzed_at": "30 Sep 2026 23:09 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "BREN",
-      "price": 2900.0,
+      "price": 2870.0,
       "sector": "Utilities",
-      "market_cap": 387960604196864,
+      "market_cap": 383947225694208,
       "yield_pct": 0.14,
       "dps": 4.09,
-      "payout_ratio": 19.7,
+      "payout_ratio": 19.9,
       "ex_div_date": "03 Jul 2026",
       "div_years": 3,
       "div_growth_pct": -29.6,
@@ -2411,13 +2341,13 @@
       "reasoning": "Yield 0.1% belum mencapai target 5%. Pantau saat harga turun.",
       "rating": 3,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "AMMN",
-      "price": 4510.0,
+      "price": 4370.0,
       "sector": "Non-Energy Minerals",
-      "market_cap": 326579985055744,
+      "market_cap": 316442251624448,
       "yield_pct": 0.0,
       "dps": 0.0,
       "payout_ratio": 0.0,
@@ -2433,13 +2363,13 @@
       "warnings": [
         "Riwayat dividen hanya 0 tahun — terlalu pendek untuk dianalisis"
       ],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "DSSA",
-      "price": 1070.0,
+      "price": 1120.0,
       "sector": "Energy Minerals",
-      "market_cap": 165563372404736,
+      "market_cap": 173299967459328,
       "yield_pct": 0.0,
       "dps": 0.0,
       "payout_ratio": 0.0,
@@ -2455,13 +2385,13 @@
       "warnings": [
         "Riwayat dividen hanya 0 tahun — terlalu pendek untuk dianalisis"
       ],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "EMAS",
-      "price": 7725.0,
+      "price": 7650.0,
       "sector": "Non-Energy Minerals",
-      "market_cap": 113799805796352,
+      "market_cap": 112694950625280,
       "yield_pct": 0.0,
       "dps": 0.0,
       "payout_ratio": 0.0,
@@ -2477,13 +2407,13 @@
       "warnings": [
         "Riwayat dividen hanya 0 tahun — terlalu pendek untuk dianalisis"
       ],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "CUAN",
-      "price": 845.0,
+      "price": 865.0,
       "sector": "Non-Energy Minerals",
-      "market_cap": 94977321336832,
+      "market_cap": 97225300508672,
       "yield_pct": 0.04,
       "dps": 0.32,
       "payout_ratio": 1.4,
@@ -2504,13 +2434,13 @@
       "warnings": [
         "Riwayat dividen hanya 1 tahun — terlalu pendek untuk dianalisis"
       ],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "BRMS",
-      "price": 590.0,
+      "price": 550.0,
       "sector": "Non-Energy Minerals",
-      "market_cap": 83652583096320,
+      "market_cap": 77981221388288,
       "yield_pct": 0.0,
       "dps": 0.0,
       "payout_ratio": 0.0,
@@ -2526,40 +2456,13 @@
       "warnings": [
         "Riwayat dividen hanya 0 tahun — terlalu pendek untuk dianalisis"
       ],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
-    },
-    {
-      "ticker": "CDIA",
-      "price": 565.0,
-      "sector": "Utilities",
-      "market_cap": 70483659718656,
-      "yield_pct": 1.22,
-      "dps": 6.9,
-      "payout_ratio": 71.8,
-      "ex_div_date": "01 Oct 2026",
-      "div_years": 1,
-      "div_growth_pct": null,
-      "div_consistent": false,
-      "div_history": [
-        {
-          "year": "2026",
-          "amount": 6.9
-        }
-      ],
-      "recommendation": "WATCH",
-      "strategy": "Yield Rendah",
-      "reasoning": "Yield 1.2% belum mencapai target 5%. Pantau saat harga turun.",
-      "rating": 3,
-      "warnings": [
-        "Riwayat dividen hanya 1 tahun — terlalu pendek untuk dianalisis"
-      ],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "MBMA",
-      "price": 486.0,
+      "price": 476.0,
       "sector": "Non-Energy Minerals",
-      "market_cap": 52192815874048,
+      "market_cap": 51118889500672,
       "yield_pct": 0.0,
       "dps": 0.0,
       "payout_ratio": 0.0,
@@ -2575,57 +2478,13 @@
       "warnings": [
         "Riwayat dividen hanya 0 tahun — terlalu pendek untuk dianalisis"
       ],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
-    },
-    {
-      "ticker": "GOTO",
-      "price": 32.0,
-      "sector": "Technology Services",
-      "market_cap": 34114956689408,
-      "yield_pct": 0.0,
-      "dps": 0.0,
-      "payout_ratio": 0.0,
-      "ex_div_date": null,
-      "div_years": 0,
-      "div_growth_pct": null,
-      "div_consistent": false,
-      "div_history": [],
-      "recommendation": "WATCH",
-      "strategy": "Yield Rendah",
-      "reasoning": "Yield 0.0% belum mencapai target 5%. Pantau saat harga turun.",
-      "rating": 3,
-      "warnings": [
-        "Riwayat dividen hanya 0 tahun — terlalu pendek untuk dianalisis"
-      ],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
-    },
-    {
-      "ticker": "VKTR",
-      "price": 790.0,
-      "sector": "Consumer Durables",
-      "market_cap": 34562499411968,
-      "yield_pct": 0.0,
-      "dps": 0.0,
-      "payout_ratio": 0.0,
-      "ex_div_date": null,
-      "div_years": 0,
-      "div_growth_pct": null,
-      "div_consistent": false,
-      "div_history": [],
-      "recommendation": "WATCH",
-      "strategy": "Yield Rendah",
-      "reasoning": "Yield 0.0% belum mencapai target 5%. Pantau saat harga turun.",
-      "rating": 3,
-      "warnings": [
-        "Riwayat dividen hanya 0 tahun — terlalu pendek untuk dianalisis"
-      ],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "BELI",
-      "price": 270.0,
+      "price": 264.0,
       "sector": "Retail Trade",
-      "market_cap": 37049126092800,
+      "market_cap": 36225809383424,
       "yield_pct": 0.0,
       "dps": 0.0,
       "payout_ratio": 0.0,
@@ -2641,14 +2500,14 @@
       "warnings": [
         "Riwayat dividen hanya 0 tahun — terlalu pendek untuk dianalisis"
       ],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "ENRG",
-      "price": 1350.0,
+      "price": 1410.0,
       "sector": "Energy Minerals",
-      "market_cap": 47527592198144,
-      "yield_pct": 0.2,
+      "market_cap": 49639927578624,
+      "yield_pct": 0.19,
       "dps": 2.66,
       "payout_ratio": 4.5,
       "ex_div_date": "02 Dec 2004",
@@ -2668,13 +2527,57 @@
       "warnings": [
         "Riwayat dividen hanya 1 tahun — terlalu pendek untuk dianalisis"
       ],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
+    },
+    {
+      "ticker": "VKTR",
+      "price": 825.0,
+      "sector": "Consumer Durables",
+      "market_cap": 36093747527680,
+      "yield_pct": 0.0,
+      "dps": 0.0,
+      "payout_ratio": 0.0,
+      "ex_div_date": null,
+      "div_years": 0,
+      "div_growth_pct": null,
+      "div_consistent": false,
+      "div_history": [],
+      "recommendation": "WATCH",
+      "strategy": "Yield Rendah",
+      "reasoning": "Yield 0.0% belum mencapai target 5%. Pantau saat harga turun.",
+      "rating": 3,
+      "warnings": [
+        "Riwayat dividen hanya 0 tahun — terlalu pendek untuk dianalisis"
+      ],
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
+    },
+    {
+      "ticker": "GOTO",
+      "price": 28.0,
+      "sector": "Technology Services",
+      "market_cap": 29850586841088,
+      "yield_pct": 0.0,
+      "dps": 0.0,
+      "payout_ratio": 0.0,
+      "ex_div_date": null,
+      "div_years": 0,
+      "div_growth_pct": null,
+      "div_consistent": false,
+      "div_history": [],
+      "recommendation": "WATCH",
+      "strategy": "Yield Rendah",
+      "reasoning": "Yield 0.0% belum mencapai target 5%. Pantau saat harga turun.",
+      "rating": 3,
+      "warnings": [
+        "Riwayat dividen hanya 0 tahun — terlalu pendek untuk dianalisis"
+      ],
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "MGLV",
-      "price": 14650.0,
+      "price": 15000.0,
       "sector": "Consumer Durables",
-      "market_cap": 27906541617152,
+      "market_cap": 28573251403776,
       "yield_pct": 0.0,
       "dps": 0.0,
       "payout_ratio": 0.0,
@@ -2690,13 +2593,13 @@
       "warnings": [
         "Riwayat dividen hanya 0 tahun — terlalu pendek untuk dianalisis"
       ],
-      "analyzed_at": "30 Sep 2026 23:09 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "BINA",
-      "price": 4350.0,
+      "price": 4180.0,
       "sector": "Finance",
-      "market_cap": 26686015930368,
+      "market_cap": 25643114823680,
       "yield_pct": 0.0,
       "dps": 0.0,
       "payout_ratio": 0.0,
@@ -2712,13 +2615,40 @@
       "warnings": [
         "Riwayat dividen hanya 0 tahun — terlalu pendek untuk dianalisis"
       ],
-      "analyzed_at": "30 Sep 2026 23:09 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
+    },
+    {
+      "ticker": "MDIY",
+      "price": 945.0,
+      "sector": "Retail Trade",
+      "market_cap": 23804921249792,
+      "yield_pct": 1.86,
+      "dps": 17.62,
+      "payout_ratio": 37.2,
+      "ex_div_date": "23 Jun 2026",
+      "div_years": 1,
+      "div_growth_pct": null,
+      "div_consistent": false,
+      "div_history": [
+        {
+          "year": "2026",
+          "amount": 17.62
+        }
+      ],
+      "recommendation": "WATCH",
+      "strategy": "Yield Rendah",
+      "reasoning": "Yield 1.9% belum mencapai target 5%. Pantau saat harga turun.",
+      "rating": 3,
+      "warnings": [
+        "Riwayat dividen hanya 1 tahun — terlalu pendek untuk dianalisis"
+      ],
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "GIAA",
-      "price": 57.0,
+      "price": 53.0,
       "sector": "Transportation",
-      "market_cap": 23204227710976,
+      "market_cap": 21575860486144,
       "yield_pct": 0.0,
       "dps": 0.0,
       "payout_ratio": 0.0,
@@ -2734,14 +2664,36 @@
       "warnings": [
         "Riwayat dividen hanya 0 tahun — terlalu pendek untuk dianalisis"
       ],
-      "analyzed_at": "30 Sep 2026 23:09 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
+    },
+    {
+      "ticker": "SINI",
+      "price": 18300.0,
+      "sector": "Consumer Services",
+      "market_cap": 22005749383168,
+      "yield_pct": 0.0,
+      "dps": 0.0,
+      "payout_ratio": 0.0,
+      "ex_div_date": null,
+      "div_years": 0,
+      "div_growth_pct": null,
+      "div_consistent": false,
+      "div_history": [],
+      "recommendation": "WATCH",
+      "strategy": "Yield Rendah",
+      "reasoning": "Yield 0.0% belum mencapai target 5%. Pantau saat harga turun.",
+      "rating": 3,
+      "warnings": [
+        "Riwayat dividen hanya 0 tahun — terlalu pendek untuk dianalisis"
+      ],
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "DEWA",
-      "price": 342.0,
+      "price": 334.0,
       "sector": "Energy Minerals",
-      "market_cap": 13354634575872,
-      "yield_pct": 0.44,
+      "market_cap": 13042244911104,
+      "yield_pct": 0.45,
       "dps": 1.5,
       "payout_ratio": 1.3,
       "ex_div_date": "08 Jul 2026",
@@ -2756,19 +2708,46 @@
       ],
       "recommendation": "WATCH",
       "strategy": "Yield Rendah",
-      "reasoning": "Yield 0.4% belum mencapai target 5%. Pantau saat harga turun.",
+      "reasoning": "Yield 0.5% belum mencapai target 5%. Pantau saat harga turun.",
       "rating": 3,
       "warnings": [
         "Riwayat dividen hanya 1 tahun — terlalu pendek untuk dianalisis"
       ],
-      "analyzed_at": "30 Sep 2026 23:09 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
+    },
+    {
+      "ticker": "CDIA",
+      "price": 565.0,
+      "sector": "Utilities",
+      "market_cap": 70483659718656,
+      "yield_pct": 1.47,
+      "dps": 8.33,
+      "payout_ratio": 81.9,
+      "ex_div_date": "01 Oct 2026",
+      "div_years": 1,
+      "div_growth_pct": null,
+      "div_consistent": false,
+      "div_history": [
+        {
+          "year": "2026",
+          "amount": 8.33
+        }
+      ],
+      "recommendation": "WATCH",
+      "strategy": "Yield Rendah",
+      "reasoning": "Yield 1.5% belum mencapai target 5%. Pantau saat harga turun.",
+      "rating": 2,
+      "warnings": [
+        "Riwayat dividen hanya 1 tahun — terlalu pendek untuk dianalisis"
+      ],
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "MDKA",
-      "price": 2880.0,
+      "price": 2820.0,
       "sector": "Non-Energy Minerals",
-      "market_cap": 70328571133952,
-      "yield_pct": 0.43,
+      "market_cap": 68863395889152,
+      "yield_pct": 0.44,
       "dps": 12.29,
       "payout_ratio": 667.7,
       "ex_div_date": "02 Jul 2026",
@@ -2789,16 +2768,16 @@
         "Payout ratio 668% — terlalu tinggi, dividen mungkin tidak sustainable",
         "Riwayat dividen hanya 1 tahun — terlalu pendek untuk dianalisis"
       ],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "PGAS",
-      "price": 1395.0,
+      "price": 1380.0,
       "sector": "Energy Minerals",
-      "market_cap": 33816903155712,
-      "yield_pct": 9.0,
+      "market_cap": 33453282164736,
+      "yield_pct": 9.1,
       "dps": 125.61,
-      "payout_ratio": 69.2,
+      "payout_ratio": 69.7,
       "ex_div_date": "05 Jun 2026",
       "div_years": 22,
       "div_growth_pct": -31.0,
@@ -2832,16 +2811,16 @@
       "warnings": [
         "Dividen turun 31% dibanding tahun lalu"
       ],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "BBRI",
-      "price": 3140.0,
+      "price": 3100.0,
       "sector": "Finance",
-      "market_cap": 472805267210240,
-      "yield_pct": 6.66,
+      "market_cap": 466782280220672,
+      "yield_pct": 6.74,
       "dps": 209.0,
-      "payout_ratio": 51.3,
+      "payout_ratio": 51.4,
       "ex_div_date": "21 Apr 2026",
       "div_years": 23,
       "div_growth_pct": -39.5,
@@ -2875,14 +2854,14 @@
       "warnings": [
         "Dividen turun 40% dibanding tahun lalu"
       ],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "ASII",
-      "price": 4600.0,
+      "price": 4510.0,
       "sector": "Technology Services",
-      "market_cap": 183632283041792,
-      "yield_pct": 6.35,
+      "market_cap": 180039475789824,
+      "yield_pct": 6.47,
       "dps": 292.0,
       "payout_ratio": 39.5,
       "ex_div_date": "05 May 2026",
@@ -2916,16 +2895,16 @@
       "reasoning": "Dividen turun 28% YoY — tren memburuk. Lebih baik ambil capital gain jika harga masih bagus daripada tunggu dividen yang menyusut.",
       "rating": 4,
       "warnings": [],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     },
     {
       "ticker": "BUMI",
-      "price": 175.0,
+      "price": 170.0,
       "sector": "Non-Energy Minerals",
-      "market_cap": 64983694049280,
-      "yield_pct": 8.18,
+      "market_cap": 63127018274816,
+      "yield_pct": 8.42,
       "dps": 14.31,
-      "payout_ratio": 240.1,
+      "payout_ratio": 242.1,
       "ex_div_date": "20 Jun 2012",
       "div_years": 9,
       "div_growth_pct": -65.7,
@@ -2954,13 +2933,13 @@
       ],
       "recommendation": "AVOID",
       "strategy": "Dividend Trap",
-      "reasoning": "Yield tinggi (8.2%) tapi payout ratio 240% tidak sustainable. Hindari — kemungkinan besar dividen akan dipotong.",
+      "reasoning": "Yield tinggi (8.4%) tapi payout ratio 242% tidak sustainable. Hindari — kemungkinan besar dividen akan dipotong.",
       "rating": 4,
       "warnings": [
-        "Payout ratio 240% — terlalu tinggi, dividen mungkin tidak sustainable",
+        "Payout ratio 242% — terlalu tinggi, dividen mungkin tidak sustainable",
         "Dividen turun 66% dibanding tahun lalu"
       ],
-      "analyzed_at": "30 Sep 2026 23:08 WIB"
+      "analyzed_at": "01 Oct 2026 23:46 WIB"
     }
   ]
 }
